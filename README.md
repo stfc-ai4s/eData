@@ -16,13 +16,20 @@
 
 # 1. Synopsis
 
-Benchmarking is a valuable tool in computational science that allows effective comparison of software and/or hardware systems.  With the rise of machine learning and AI, the need for benchmarking AI algorithms is  increasing. The SciMLBench is aimed at the ‘*AI for Science*’ research community.  
+**Name:** AI for Science Benchmarks  
+**DOI:** [https://doi.org/ai4sciencebenchmarks](https://doi.org/ai4sciencebenchmarks)  
+**Authors:** [Thiyagalingam, Jeyan;](https://orcid.org/0000-0002-2167-1343) [Papay, Juri;](https://orcid.org/0000-0001-5267-0661) [Leng,Kuangdai ;](https://orcid.org/0000-0002-3007-1825) [Jackson, Samuel;](https://orcid.org/0000-0001-5301-5095)  [Shankar,Mallikarjun ;](https://orcid.org/0000-0001-5289-7460) [Fox,Geoffrey;](https://orcid.org/0000-0003-1017-1391)  [Hey,Tony](https://orcid.org/0000-0001-6782-3691)  
+**Description:** Benchmarking is a valuable tool in computational science that allows effective comparison of software and/or hardware systems. The presented collection of benchmarks is an open-source initiative that covers a range of applications drawn from various domains of science, including materials, life and environmental science, as well as particle physics and astronomy. The benchmarks are implemented in Python and use Machine Learning frameworks, such as TensorFlow, PyTorch and SciKit-Learn. The purpose of this initiative is to support the ‘_AI for Science_’ community in the development of more powerful, robust and understandable Machine Learning solutions.
 
-With an ever-growing number of machine learning models and algorithms, a range of scientific problems, and the proliferation of AI systems, the development of cutting-edge ML/AI algorithms requires a detailed understanding of all of these aspects as well as effective mechanisms for measuring their effectiveness.
-
-The SciML-Bench toolkit aims to provide such mechanisms. It is an open-source initiative and covers a range of scientific problems from various domains of science, including materials, life and environmental scienceS, as well as particle physics and astronomy. The benchmarks are implemented in Python and rely on one or more machine learning frameworks, such as TensorFlow, PyTorch or SciKit-Learn.
-
-The overarching purpose of this initiative is to support the ‘*AI for Science*’ community in the development of more powerful, robust and understandable machine learning solutions.
+**Repository:** [https://gitlab.stfc.ac.uk/joe41931/ai4science](https://gitlab.stfc.ac.uk/joe41931/ai4science)  
+**URL:** [https://gitlab.stfc.ac.uk/joe41931/ai4science](https://gitlab.stfc.ac.uk/joe41931/ai4science)  
+**Version:** 1.2.1  
+**Released:** 13 May 2025  
+**License:** https://spdx.org/licenses/GPL-3.0-only  
+**Keywords:** Machine Learning, Python, TensorFlow, Pytorch, GPU\
+**Cite as:** Thiyagalingam J. , Papay J., Leng K. , Jackson S. , Shankar M., Fox G., Hey T. (2025). AI for Science Benchmarks.\
+**DOI:** https://doi.org/ai4sciencebenchmarks \
+**URL:** https://github.com/stfc-ai4s/eData/
 
 
 # 2. Benchmark Suite 
