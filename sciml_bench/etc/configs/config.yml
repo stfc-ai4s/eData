@@ -38,23 +38,8 @@ datasets:
     dms_sim:
         end_point: 'sciml-datasets/ms'
         download_command: download_command1
-    cloud_slstr_ds1:
-        end_point: 'sciml-datasets/es'
-        download_command: download_command1
-    cloud_slstr_ds2:
-        end_point: 'sciml-datasets/es'
-        download_command: download_command1
     optical_damage_ds1:
         end_point: 'sciml-datasets/ins'
-        download_command: download_command1
-    stemdl_ds1:
-        end_point: 'sciml-datasets/ms'
-        download_command: download_command1
-    stemdl_reconst_ds1:
-        end_point: 'sciml-datasets/ms'
-        download_command: download_command1
-    hydronet_ds1:
-        end_point: 'sciml-datasets/ms'
         download_command: download_command1
     inelastic_ds1:
         end_point: 'sciml-datasets/ms'
@@ -76,52 +61,16 @@ benchmarks:
         dependencies: 'torch, scikit-learn, scikit-image'
         types: 'training, inference'
         group: 'science'
-
-    slstr_cloud:
-        datasets: cloud_slstr_ds1
-        dependencies: 'tensorflow,scikit-learn,h5py'
-        types: 'training, inference'
-        group: 'science'
     
     optical_damage:
         datasets: optical_damage_ds1
         dependencies: 'tensorflow,scikit-learn,h5py,tqdm'
         types: 'training, inference'
         group: 'science'
-
-    stemdl_classification:
-        datasets: stemdl_ds1
-        dependencies: 'pytorch-lightning, torchvision, tensorboard, scikit-learn'
-        types: 'training, inference'
-        group: 'science'
-
-    stemdl_reconstruction:
-        datasets: stemdl_reconst_ds1
-        dependencies: 'torch, scikit-learn, scikit-image'
-        types: 'training, inference'
-        group: 'science'
-    
-    hydronet:
-        datasets: hydronet_ds1
-        dependencies: 'torch, torchvision, scikit-learn, pyg, tensorboard, ase, fair-research-login, h5py, tqdm, gdown, torch-scatter, torch-sparse, torch-cluster, torch-spline-conv, torch-geometric'
-        types: 'training, inference'
-        group: 'science'
-    
+        
     inelastic:
         datasets: inelastic_ds1
         dependencies: 'tensorflow, tqdm'
         types: 'training, inference'
         group: 'science'
 
-    # Synthetic Benchmarks 
-    synthetic_regression:
-        dependencies: 'pytorch, lightning'
-        types: 'training'
-        group: 'synthetic'
-        
-    # Example Benchmarks 
-    mnist_tf_keras:
-        datasets: mnist
-        dependencies: 'tensorflow, scikit-image'
-        types: 'training, inference'
-        group: 'examples'
