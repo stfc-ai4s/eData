@@ -32,11 +32,11 @@ The overarching purpose of this initiative is to support the ‘*AI for Science*
 
 The suite has three components, namely, 
 
-1. **Benchmarks**: In our case, a benchmark is a machine learning application performing a specific scientific task, written in Python. These are included as part of the distribution, and can be found inside the [Benchmarks](./sciml_bench/benchmarks/) directory. In the scale of *micro-apps*, *mini-apps*, and *apps*, benchmarks are full-fledged applications.
+1. **Benchmarks**: In our case, a benchmark is a machine learning application performing a specific scientific task, written in Python. These are included as part of the distribution, and can be found inside the [benchmarks](./sciml_bench/benchmarks/) directory. In the scale of *micro-apps*, *mini-apps*, and *apps*, benchmarks are full-fledged applications.
 
 2. **Datasets**: Each benchmark in (1) relies on one or more datasets, for example for training and/or inference. These datasets are open, task- or domain-specific, and FAIR compliant. Most of these datasets being large, they are hosted separately,  on one of the servers (or mirrors), and are downloaded separately on demand. The framework (see (3)), supports manual downloading of these datasets. 
 
-3. **Framework**:  The framework serves two purposes: first, at the user level, it facilitates an easier approach to benchmarking, logging and reporting of the results. Secondly, at the developer level, it provides a coherent API for unifying and simplifying the development of AI benchmarks. Sources related to the framework can be found inside the ``./sciml_bench/core`` directory. 
+3. **Framework**:  The framework serves two purposes: first, at the user level, it facilitates an easier approach to benchmarking, logging and reporting of the results. Secondly, at the developer level, it provides a coherent API for unifying and simplifying the development of AI benchmarks. Sources related to the framework can be found inside the [core](./sciml_bench/core/) directory. 
 
 The source tree, which captures these aspects,  is organised as follows:
 
@@ -75,13 +75,13 @@ A typical user-base for the benchmarking framework may cover a broad spectrum of
 
 
 ## 2.3 Benchmarks and Datasets 
-The number of datasets and benchmarks may vary with every release. Please consult the [Benchmarks](./sciml_bench/docs/full/benchmarks/summary.html) and  [Datasets](./sciml_bench/docs/full/datasets/summary.html) documents for more details. You can also check out the full documentation [here](./sciml_bench/docs/full/index.html). A number of authors have contributed towards the development of the benchmarks,  and these contributions are stated in [Credits](./sciml_bench/docs/full/credits.html). If you are thinking of contributing towards the benchmarks or datasets, please see the [Contributing Datasets & Benchmarks](./sciml_bench/docs/full/main/contributing.html).
+The number of datasets and benchmarks may vary with every release. Please consult the [Benchmarks](./sciml_bench/docs/markdown/benchmarks_summary.md) and  [Datasets](./sciml_bench/docs/markdown/datasets_summary.md) documents for more details. You can also check out the full documentation [here](./sciml_bench/docs/). A number of authors have contributed towards the development of the benchmarks,  and these contributions are stated in [Credits](./sciml_bench/docs/markdown/credits.md). If you are thinking of contributing towards the benchmarks or datasets, please see the [Contributing Datasets & Benchmarks](./sciml_bench/docs/markdown/main/contributing.md).
 
 
 
 # 3. Installation and Usage
 
-Please consult  [Installation & Usage](./sciml_bench/docs/full/main/usage.html) for getting started. The [Frequently Asked Questions (FAQ)](./sciml_bench/docs/full/main/faq.html) covers a number of installation issues. We have also included a short [tutorial]((./sciml_bench/docs/full/main/tutorial.html)) on installing and using the framework. 
+Please consult  [Installation](./sciml_bench/docs/markup/main/installation.md) and [Usage](./sciml_bench/docs/markup/main/usage.md)for getting started. The [Frequently Asked Questions (FAQ)](./sciml_bench/docs/markup/main/faq.md) covers a number of installation issues. We have also included a short [tutorial](./sciml_bench/docs/markup/main/tutorial.md) on installing and using the framework. 
 
 
 
