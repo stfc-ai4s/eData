@@ -32,7 +32,7 @@ The overarching purpose of this initiative is to support the ‘*AI for Science*
 
 The suite has three components, namely, 
 
-1. **Benchmarks**: In our case, a benchmark is a machine learning application performing a specific scientific task, written in Python. These are included as part of the distribution, and can be found inside the [Benchmarks] (./sciml_bench/benchmarks/) directory. In the scale of *micro-apps*, *mini-apps*, and *apps*, benchmarks are full-fledged applications.
+1. **Benchmarks**: In our case, a benchmark is a machine learning application performing a specific scientific task, written in Python. These are included as part of the distribution, and can be found inside the [Benchmarks](./sciml_bench/benchmarks/) directory. In the scale of *micro-apps*, *mini-apps*, and *apps*, benchmarks are full-fledged applications.
 
 2. **Datasets**: Each benchmark in (1) relies on one or more datasets, for example for training and/or inference. These datasets are open, task- or domain-specific, and FAIR compliant. Most of these datasets being large, they are hosted separately,  on one of the servers (or mirrors), and are downloaded separately on demand. The framework (see (3)), supports manual downloading of these datasets. 
 
