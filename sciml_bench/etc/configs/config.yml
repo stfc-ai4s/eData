@@ -8,8 +8,6 @@
 
 # This is a configuration file for the sciml-bench.
 
-
-
 # Location where the datasets are.
 data_mirrors:
     stfc_mirror: "https://s3.echo.stfc.ac.uk"
@@ -29,9 +27,6 @@ directories:
 
 # List of datasets
 datasets: 
-    mnist:
-        end_point: 'sciml-datasets/ts'
-        download_command: download_command1
     em_graphene_sim:
         end_point: 'sciml-datasets/ms'
         download_command: download_command1
