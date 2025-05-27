@@ -10,7 +10,8 @@
   * [2.3 Benchmarks and Datasets](#23-benchmarks-and-datasets)
 - [3. Installation and Usage](#3-installation-and-usage)
 - [4. Citation](#4-citation)
-- [5. Acknowledgments](#5-acknowledgments)
+- [5. Publications](#5-publications)
+- [6. Acknowledgments](#6-acknowledgments)
 
 
 
