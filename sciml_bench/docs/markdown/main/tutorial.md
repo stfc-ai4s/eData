@@ -58,6 +58,8 @@ This should produce an output similar to the one below.
 
 <img src="https://github.com/stfc-ai4s/eData/blob/master/sciml_bench/docs/markdown/resources/tutorial/about_output.png" alt="Output of the about command" width="500"/>
 
+<img src="../resources/tutorial/about_output.png" alt="Output of the about command" width="500"/>
+
 Another option is to use the `--version` option as follows: 
 
 ```bash
