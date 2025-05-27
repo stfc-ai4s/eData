@@ -56,7 +56,7 @@ sciml-bench about
 
 This should produce an output similar to the one below. 
 
-<img src="../../resources/tutorial/about_output.png" alt="Output of the about command" width="500"/>
+<img src=".sciml_bench/docs/markdown/resources/tutorial/about_output.png" alt="Output of the about command" width="500"/>
 
 Another option is to use the `--version` option as follows: 
 
@@ -65,7 +65,7 @@ sciml-bench --version
 ```
 producing the following looking output: 
 
-<img src="../../resources/tutorial/version_output.png" alt="Output of the --version option" width="500"/>
+<img src="./sciml_bench/docs/markdown/resources/tutorial/version_output.png" alt="Output of the --version option" width="500"/>
 
 Another method to verify the installation is to use the `--help` option using the command `sciml-bench --help`, which produces the following looking output: 
 
