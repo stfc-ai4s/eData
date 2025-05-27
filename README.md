@@ -81,7 +81,7 @@ The number of datasets and benchmarks may vary with every release. Please consul
 
 # 3. Installation and Usage
 
-Please consult  [Installation](./sciml_bench/docs/markup/main/installation.md) and [Usage](./sciml_bench/docs/markup/main/usage.md)for getting started. The [Frequently Asked Questions (FAQ)](./sciml_bench/docs/markup/main/faq.md) covers a number of installation issues. We have also included a short [tutorial](./sciml_bench/docs/markup/main/tutorial.md) on installing and using the framework. 
+Please consult  [Installation](./sciml_bench/docs/markdown/main/installation.md) and [Usage](./sciml_bench/docs/markdown/main/usage.md)for getting started. The [Frequently Asked Questions (FAQ)](./sciml_bench/docs/markdown/main/faq.md) covers a number of installation issues. We have also included a short [tutorial](./sciml_bench/docs/markdown/main/tutorial.md) on installing and using the framework. 
 
 
 
