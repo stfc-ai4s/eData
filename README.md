@@ -76,13 +76,13 @@ A typical user-base for the benchmarking framework may cover a broad spectrum of
 
 
 ## 2.3 Benchmarks and Datasets 
-The number of datasets and benchmarks may vary with every release. Please consult the [Benchmarks](./sciml_bench/docs/markdown/benchmarks_summary.md) and  [Datasets](./sciml_bench/docs/markdown/datasets_summary.md) documents for more details. You can also check out the full documentation [here](./sciml_bench/docs/). A number of authors have contributed towards the development of the benchmarks,  and these contributions are stated in [Credits](./sciml_bench/docs/markdown/credits.md). If you are thinking of contributing towards the benchmarks or datasets, please see the [Contributing Datasets & Benchmarks](./sciml_bench/docs/markdown/main/contributing.md).
+The number of datasets and benchmarks may vary with every release. Please consult the [Benchmarks](./sciml_bench/docs/markdown/benchmarks_summary.md) and [Datasets](./sciml_bench/docs/markdown/datasets_summary.md) documents for more details. You can also check out the full documentation [here](./sciml_bench/docs/). A number of authors have contributed towards the development of the benchmarks,  and these contributions are stated in [Credits](./sciml_bench/docs/markdown/credits.md). If you are thinking of contributing towards the benchmarks or datasets, please see the [Contributing Datasets & Benchmarks](./sciml_bench/docs/markdown/main/contributing.md).
 
 
 
 # 3. Installation and Usage
 
-Please consult  [Installation](./sciml_bench/docs/markdown/main/installation.md) and [Usage](./sciml_bench/docs/markdown/main/usage.md)for getting started. The [Frequently Asked Questions (FAQ)](./sciml_bench/docs/markdown/main/faq.md) covers a number of installation issues. We have also included a short [tutorial](./sciml_bench/docs/markdown/main/tutorial.md) on installing and using the framework. 
+Please consult  [Installation](./sciml_bench/docs/markdown/main/installation.md) and [Usage](./sciml_bench/docs/markdown/main/usage.md) for getting started. The [Frequently Asked Questions (FAQ)](./sciml_bench/docs/markdown/main/faq.md) covers a number of installation issues. We have also included a short [tutorial](./sciml_bench/docs/markdown/main/tutorial.md) on installing and using the framework. 
 
 
 
